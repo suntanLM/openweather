@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tantan.openweather.HoroActivity"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="#e3ec90">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ngày sinh của bạn: "
+            android:textSize="18sp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/tv_bd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="26/03/1996"
+            android:textSize="20sp"
+            android:textColor="#ff0000"/>
+        <Button
+            android:id="@+id/btn_changeDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đổi"/>
+
+    </LinearLayout>
+
+    <TextView
+   android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="#f00"/>
+
+    <ImageView
+        android:id="@+id/iv_horoicon"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_gravity="center"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_horo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/paragraph"
+            android:padding="10dp"
+            android:textColor="#000"
+            android:textSize="17sp"/>
+    </ScrollView>
+
+
+
+</LinearLayout>

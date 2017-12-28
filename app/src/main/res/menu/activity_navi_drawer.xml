@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_horo"
+        android:title="Tử vi hàng ngày" />
+    <item
+        android:id="@+id/nav_info"
+        android:title="Thông tin" />
+
+</menu>

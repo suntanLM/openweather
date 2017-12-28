@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:background="#000">
+
+    <TextView
+        android:id="@+id/tv_acname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ha Noi, VN"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:textColor="#fff" />
+    <TextView
+        android:id="@+id/tv_acid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID: 123465"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:textSize="15sp"
+        android:textColor="#fff"
+        android:layout_below="@+id/tv_acname"/>
+
+</RelativeLayout>

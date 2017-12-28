@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">OpenWeather</string>
+    <string name="title_activity_navi">NaviActivity</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed massa vestibulum, mollis lorem eget, eleifend nulla. Quisque quis orci nec mi vestibulum tempus. Nam a nulla id nisl vehicula laoreet eu eget sem. Donec maximus ut nisl nec sollicitudin. Sed vehicula ultrices ante. Quisque feugiat diam massa, vitae sodales magna posuere eu. Phasellus at laoreet enim. Sed dapibus nisl nunc, ut placerat justo euismod ac. Proin at vestibulum magna. Aenean quam lectus, vestibulum at varius ut, accumsan sed mauris.
+
+Integer viverra accumsan dui at venenatis. Vestibulum vel mollis neque. Praesent sodales porttitor est, tincidunt cursus ipsum aliquet sit amet. Mauris euismod turpis quis lorem maximus, ac iaculis diam lobortis. Sed ullamcorper venenatis magna, et feugiat est pretium ut. In non purus ac neque facilisis pretium. Cras vitae diam eu tortor ornare mollis. Praesent eu odio massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
+Maecenas consectetur, tortor in ornare faucibus, elit enim egestas est, in vulputate purus felis a est. Maecenas tristique tortor et nibh accumsan, non lobortis purus mollis. Quisque vestibulum egestas tortor non ultrices. Ut hendrerit libero vel convallis tempus. Phasellus erat dui, dapibus vitae tempor vel, vulputate quis nisi. Nulla diam mauris, posuere eu lectus sed, fringilla aliquet enim. Nunc a est consectetur, tincidunt massa et, ultrices justo.</string>
+</resources>

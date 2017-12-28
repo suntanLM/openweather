@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp">
+
+    <TextView
+        android:id="@+id/tv_forcast_date"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:text="10"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="@color/textColorWhite" />
+    <ImageView
+        android:id="@+id/iv_forecast_icon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_weight="3"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_launcher_round" />
+    <TextView
+        android:id="@+id/tv_forcast_tempmin"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:text="10"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="@color/textColorWhite" />
+    <TextView
+        android:id="@+id/tv_forcast_tempmax"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:text="20"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="@color/textColorWhite" />
+
+</LinearLayout>
